@@ -1,0 +1,42 @@
+.about {
+  margin-top: 50px;
+  background: #eee;
+}
+.about h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.about h4 {
+  font-size: 20px;
+  line-height: 1.75;
+  margin-bottom: 35px;
+}
+.about .philosophy {
+  padding: 25px;
+  background-image: url(../../content/assets/philosophy-background-small.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+.about .philosophy h4 {
+  font-size: 24px;
+}
+
+.about .team {
+  padding: 25px 0 100px 0;
+}
+.about .team .team-member {
+  margin-bottom: 50px;
+}
+.about .team .img-container {
+  text-align: center;
+}
+.about .team img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+.about .team p {
+  padding: 5px 15px;
+  font-size: 1.4em;
+}
