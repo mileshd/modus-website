@@ -24,7 +24,7 @@
 
 @media (max-width: 768px) {
   .new-pitch, .new-pitch .pitch-overlay {
-    height: 900px;
+    height: 1100px;
   }
 }
 .new-pitch .pitch-content {
