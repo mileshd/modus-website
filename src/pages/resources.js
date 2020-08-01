@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
+import logo from '../../content/assets/logo.png'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -14,7 +15,7 @@ const ResourcesPage = ({ data, location }) => {
       <SEO title="Modus Planning Resources" />
       <div className="resources">
         <div className="container">
-          <div className="row">
+          <div className="row resources-videos">
             <div className="col-xs-12 col-sm-6">
               <h2>
                 Introduction to Modus Planning
@@ -50,26 +51,29 @@ const ResourcesPage = ({ data, location }) => {
             <div className="col-xs-12 col-sm-4">
               <a href="/white-paper" className="resources__article">
                 <h3>Modus Planning White Paper</h3>
+                <img src={logo} />
                 <p>
                   An overview of why Modus Planning is a CPG revolution.
                 </p>
               </a>
             </div>
             <div className="col-xs-12 col-sm-4">
-              <div className="resources__article">
+              <a href="/maturity-model" className="resources__article">
                 <h3>Growth Brand Planning & Maturity Model</h3>
+                <i className="fa fa-line-chart" />
                 <p>
-                  An overview of why Modus Planning is a CPG revolution.
+                  How brands grow to be unmitigated success stories. 
                 </p>
-              </div>
+              </a>
             </div>
             <div className="col-xs-12 col-sm-4">
-              <div className="resources__article">
+              <a href="/value-proposition" className="resources__article">
                 <h3>Modus Planning Value Proposition</h3>
+                <i className="fa fa-usd" />
                 <p>
-                  An overview of why Modus Planning is a CPG revolution.
+                  10 reasons Modus will turbo-charge your brand.
                 </p>
-              </div>
+              </a>
             </div>
           </div>
         </div>

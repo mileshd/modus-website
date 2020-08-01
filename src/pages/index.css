@@ -247,8 +247,7 @@ p {
   height: 100%;
   width: 50%;
   display: inline-block;
-  /*background-image: url(../../content/assets/home-solution-small.jpg);*/
-  background-image: url(../../content/assets/new-solution.jpeg);
+  background-image: url(../../content/assets/home-solution-2-small.jpeg);
   background-size: cover;
   background-position: center center;
 }
