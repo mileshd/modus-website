@@ -45,7 +45,7 @@ const AboutPage = ({ data, location }) => {
                   With majors in Supply Chain and Information Systems, at the University of Maryland (just like Miles), Ryan went the supply chain route and joined select Unilever's Future Leader Program.
                 </p>
                 <p>
-                  There, Ryan led the S&OP/Demand Planning process for Popsicle and Ben & Jerry's, before taking the leap and going to the then 4-person startup, Icelandic Provisions. At Icelandic Provisions, Ryan developed Modus Planning in a partnership between Icelandic Provisions and OnePage Software. Through Ryan's tenure, Icelandic Provisions has been consistently recognized as one of the fastest growing brands in the dairy yogurt category nation-wide.
+                  There, Ryan led the S&OP/Demand Planning process for Popsicle and Ben & Jerry's, before taking the leap and going to the then 4-person startup, Icelandic Provisions. Through Ryan's tenure, Icelandic Provisions has been consistently recognized as one of the fastest growing brands in the dairy yogurt category nation-wide.
                 </p>
                 <p>
                   Ryan quickly realized that the dire need for a cloud-based bottoms-up planning system like Modus Planning extended throughout the CPG world. Seeing this, Ryan and Miles have spent the past 5 years working closely with rapidly growing brands to refine Modus Planning into the best-in-class system it is today.

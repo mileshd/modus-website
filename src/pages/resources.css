@@ -1,0 +1,27 @@
+.resources {
+  margin-top: 65px;
+  min-height: 100vh;
+}
+
+.resources-articles {
+  margin-top: 25px;
+}
+
+.resources .resources__article {
+  padding: 15px;
+  background: #eee;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  min-height: 250px;
+  display: block;
+  color: black;
+}
+.resources .resources__article:hover {
+  cursor: pointer;
+  background: #ddd;
+}
+.resources .resources__article:hover,
+.resources .resources__article:active,
+.resources .resources__article:focus {
+  text-decoration: none
+}

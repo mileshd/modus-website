@@ -1,0 +1,15 @@
+.white-paper {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  min-height: 100vh;
+}
+
+.white-paper h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.white-paper li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}

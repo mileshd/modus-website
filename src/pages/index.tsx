@@ -31,9 +31,12 @@ const Index = ({ data, location }) => {
                   <span className="pitch-demand-planning">
                     Demand Planning 
                   </span>,
-                  <span className="pitch-trade-promotion-management">
-                    Trade Promotion Management 
-                  </span>, and
+                  <div>
+                    <span className="pitch-trade-promotion-management">
+                      Trade Promotion Management 
+                    </span>,
+                  </div>
+                  and
                   <span className="pitch-order-management">
                     Order Validation
                   </span>
@@ -67,10 +70,10 @@ const Index = ({ data, location }) => {
         <div className="client__quote">
           <div className="container">
             <div className="quote-text">
-              As one of the fastest growing brands in our category, Modus Planning's unique approach, bridging Sales, Marketing, and Operations, fits our needs perfectly so we can plan our business and focus more on growth than tracking.
+              "As one of the fastest growing brands in our category, Modus Planning's unique approach, bridging Sales, Marketing, and Operations, fits our needs perfectly so we can plan our business and focus more on growth than tracking."
             </div>
             <div className="quote-attribution">
-              Elliot Shifrin, VP Marketing Hu Kitchen
+              Elliot Shifrin, VP Marketing - Hu Kitchen
             </div>
           </div>
         </div>
@@ -98,6 +101,22 @@ const Index = ({ data, location }) => {
             <h2>
               Never miss a new item launch, promotion, or opportunity with the cross-functional collaboration facilitated by Modus Planning.
             </h2>
+          </div>
+        </div>
+        <div className="client__quote">
+          <div className="container">
+            <div className="quote-text">
+              "Modus Planning is well suited for growth-oriented brands of all sizes.  
+            </div>
+            <div className="quote-text">
+              Modus Planning has revolutionized our planning processes by incorporating the interests of all departments. No other system I have seen can coherently build a forecast which truly aligns the functional teams. Modus Planning provides a fact driven, stable, and single truth forecast.
+            </div>
+            <div className="quote-text">
+              OnePage Software is a fantastic collaborative team driven to find application solutions to cumbersome and inefficient processes."
+            </div>
+            <div className="quote-attribution">
+              Matt Kasten, VP Operations - Beyond Better Foods
+            </div>
           </div>
         </div>
         <div className="benefits">

@@ -8,8 +8,10 @@
   background-image: url(../../content/assets/pitch-background-small.jpg);
   background-size: cover;
   background-position: center center;
+  /*height: 100vh;*/
   height: 100vh;
-  text-align: center;
+  min-height: 800px;
+  /*text-align: center;*/
 }
 .new-pitch .pitch-overlay {
   position: absolute;
@@ -19,6 +21,8 @@
   left: 0;
   bottom: 0;
   width: 100%;
+  /*height: 100vh;*/
+  min-height: 800px;
   height: 100vh;
 }
 
@@ -43,7 +47,7 @@
   /*margin-top: 50px;*/
   /*margin-bottom: 25px;*/
   line-height: 1.25;
-  font-size: 3em;
+  font-size: 3.5em;
   margin-top: 1em;
   margin-bottom: .75em;
 }
@@ -64,7 +68,6 @@
   color: #e1ab04;
 }
 .pitch-trade-promotion-management {
-  margin-left: 8px;
   color: #2ecc71;
 }
 .pitch-order-management {
@@ -153,19 +156,22 @@
 }
 
 .client__quote {
-  text-align: center;
+  /*text-align: center;*/
   padding: 65px; 
   background: #2F2E2E;
   color: white;
 }
 .client__quote .quote-text {
   font-size: 2em;
-  font-style: italic;
+  /*font-style: italic;*/
   margin-bottom: 25px;
+  line-height: 1.75;
 }
 .client__quote .quote-attribution {
-  font-size: 1.5em;
-  font-style: italic;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: right;
+  text-style: italic;
 }
 
 .features {
@@ -241,7 +247,8 @@ p {
   height: 100%;
   width: 50%;
   display: inline-block;
-  background-image: url(../../content/assets/home-solution-small.jpg);
+  /*background-image: url(../../content/assets/home-solution-small.jpg);*/
+  background-image: url(../../content/assets/new-solution.jpeg);
   background-size: cover;
   background-position: center center;
 }

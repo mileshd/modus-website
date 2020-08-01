@@ -18,7 +18,7 @@ const ModulesPage = ({ data, location }) => {
       <div className="modules">
         <div className="intro">
           <div className="container">
-            <h1>Modus works for Brands of Any Size</h1>
+            <h1>Modus Planning Works for Brands of Any Size</h1>
           </div>
         </div>
         <div className="demand">
@@ -80,7 +80,7 @@ const ModulesPage = ({ data, location }) => {
             <h1>We Guide You Through Onboarding, Every Step of the Way</h1>
             <div className="outro__body">
               <h3>
-                Software implementations can be onerous, but our customer support representatives make it as painless as possible.
+                Software implementations can be intense, but our team will make it as painless as possible.
               </h3>
               <h3>
                 Our industry experts provide the ongoing support and training you need to begin operating with Modus Planning.

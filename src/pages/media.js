@@ -8,6 +8,7 @@ import './media.css'
 
 const MediaPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
+  console.log(data)
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -57,6 +58,25 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    allMarkdownRemark(
+      filter: { fields: { slug: { regex: "/blog/" } } },
+      sort: { fields: [frontmatter___date],
+      order: DESC }
+    ) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            description
+          }
+        }
       }
     }
   }
