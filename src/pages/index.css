@@ -173,6 +173,11 @@
   text-align: right;
   text-style: italic;
 }
+@media (max-width: 768px) {
+  .client__quote {
+    padding: 25px;
+  }
+}
 
 .features {
   padding: 50px 50px 100px 50px;

@@ -45,3 +45,10 @@
   margin: 15px;
   text-align: left;
 }
+
+
+@media (max-width: 768px) {
+  .resources__article {
+    background: #eee;
+  }
+}
