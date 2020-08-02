@@ -26,11 +26,6 @@
   height: 100vh;
 }
 
-@media (max-width: 768px) {
-  .new-pitch, .new-pitch .pitch-overlay {
-    height: 1100px;
-  }
-}
 .new-pitch .pitch-content {
   position: relative;
   max-width: 800px;
@@ -61,6 +56,23 @@
 }
 .new-pitch__text .get-in-touch-btn {
   margin-bottom: 25px;
+}
+@media (max-width: 768px) {
+  .new-pitch, .new-pitch .pitch-overlay {
+    height: 900px;
+  }
+
+  .new-pitch__text h1 {
+    line-height: 1.25;
+    font-size: 2.5em;
+    margin-top: 1em;
+    margin-bottom: .75em;
+  }
+
+  .button-container {
+    margin-top: 25px;
+    text-align: center;
+  }
 }
 
 .pitch-demand-planning {

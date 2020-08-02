@@ -44,9 +44,11 @@ const Index = ({ data, location }) => {
                 <h1>
                   Modus Planning Is Your Retail Operating System
                 </h1>
-                <a href="/contact" className="btn btn-primary get-in-touch-button">
-                  Get In Touch 
-                </a>
+                <div className="button-container">
+                  <a href="/contact" className="btn btn-primary get-in-touch-button">
+                    Get In Touch 
+                  </a>
+                </div>
               </div>
             </div>
           </div>
