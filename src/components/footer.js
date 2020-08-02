@@ -15,7 +15,7 @@ export default class Footer extends React.Component {
                   <a href="/modules" className="link">Modules</a>
                 </li>
                 <li>
-                  <a href="/media" className="link">Media</a>
+                  <a href="/resources" className="link">Resources</a>
                 </li>
               </ul>
             </div>
@@ -63,7 +63,7 @@ export default class Footer extends React.Component {
             </div>
             <div className="col-xs-12 col-sm-3">
               <h4 className="copyright">
-                © 2020 Modus Planning
+                © 2020 OnePage Software
               </h4>
             </div>
           </div>

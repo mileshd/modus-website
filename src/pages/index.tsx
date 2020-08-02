@@ -55,7 +55,7 @@ const Index = ({ data, location }) => {
         </div>
         <div className="clients">
           <div className="container">
-            <h1>Brands Growing with Us</h1>
+            <h1>Some of the Brands Growing with Us</h1>
             <div className="row clients__logos">
               <div className="col-xs-12 col-sm-6 col-md-4">
                 <img className="logo-picture" src={enlightenedLogo}/>
