@@ -80,13 +80,16 @@ const ModulesPage = ({ data, location }) => {
             <h1>We Guide You Through Onboarding, Every Step of the Way</h1>
             <div className="outro__body">
               <h3>
-                Software implementations can be intense, but our team will make it as painless as possible.
+                We understand that a growing brand has minimal time to work through onboarding new applications.
               </h3>
               <h3>
-                Our industry experts provide the ongoing support and training you need to begin operating with Modus Planning.
+                We have lived it. We get it.
               </h3>
               <h3>
-                We then provide regular check-ins to inform you of system enhancements to ensure you are using the platform to its full potential.
+                Our industry experts provide the support and training you need to operate your brand with Modus Planning.
+              </h3>
+              <h3>
+                Our goal is your success.
               </h3>
             </div>
             <a href="/contact" className="btn btn-primary get-in-touch-button">
@@ -119,3 +122,16 @@ export const pageQuery = graphql`
     }
   }
 `
+//We understand that a growing brand has minimal time to work through a software implementation. We have lived it, we get it.
+
+            //<div className="outro__body">
+              //<h3>
+                //Software implementations can be intense, but our team will make it as painless as possible.
+              //</h3>
+              //<h3>
+                //Our industry experts provide the ongoing support and training you need to begin operating with Modus Planning.
+              //</h3>
+              //<h3>
+                //We then provide regular check-ins to inform you of system enhancements to ensure you are using the platform to its full potential.
+              //</h3>
+            //</div>
