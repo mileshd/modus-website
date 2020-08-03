@@ -83,16 +83,16 @@ const AboutPage = ({ data, location }) => {
               </div>
               <div className="col-xs-12 col-sm-9">
                 <p>
-                  Graduating with degrees in Finance and Marketing from the University of Maryland, Brian has diverse financial experience and is a CFA charterholder. Brian began his career in Fannie Mae’s financial leadership rotational program before moving to Goldman Sachs where he was charged with complex investment valuation within GSAM.
+                  Graduating with degrees in Finance and Marketing from the University of Maryland, Brian has diverse financial experience and is a CFA charterholder. Brian began his career in Fannie Mae’s finance rotational program before moving to Goldman Sachs where he was charged with complex investment valuation within GSAM.
                 </p>
                 <p>
                   Brian has worked with OnePage Software since spring 2017 as the Director of Outreach before making the leap full-time and becoming the CFO in the summer of 2020.
                 </p>
                 <p>
-                  Entrepreneurship, and cultivating growth in others, has always been Brian's passion. Whether he is volunteer coaching youth basketball, or using his weekend to help tutor underprivileged middle-schoolers, Brian sets a high bar.
+                  In Brian’s free time, he enjoys participating in competitive sports and giving back to the community. Brian volunteers for KEEN New York, which provides athletic programming for children with mental disabilities.
                 </p>
                 <p>
-                  Brian leads the Outreach and marketing team as well as the finance department at OnePage Software.
+                  Brian oversees Sales, Marketing, and Finance for OnePage Software.
                 </p>
               </div>
             </div>
