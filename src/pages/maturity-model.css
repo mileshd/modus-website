@@ -4,9 +4,17 @@
   min-height: 100vh;
 }
 
+.maturity-model p {
+  margin-left: 15px;
+}
+
 .maturity-model h2 {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 15px;
+}
+
+.maturity-model h3 {
+  font-weight: 900;
 }
 
 .maturity-model li {
