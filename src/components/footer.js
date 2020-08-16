@@ -56,7 +56,7 @@ export default class Footer extends React.Component {
                     target="_blank"
                     className="link"
                   >
-                    Linked In
+                    LinkedIn
                   </a>
                 </li>
               </ul>

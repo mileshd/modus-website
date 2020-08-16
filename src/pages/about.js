@@ -5,7 +5,7 @@ import Image from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ryanPicture from '../../content/assets/ryan-picture.jpeg'
-import milesPicture from '../../content/assets/miles-picture.jpeg'
+import milesPicture from '../../content/assets/miles-portrait-1-small.jpg'
 import brianPicture from '../../content/assets/brian-picture.jpeg'
 import './about.css'
 
