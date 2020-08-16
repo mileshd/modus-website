@@ -27,7 +27,7 @@ const ModulesPage = ({ data, location }) => {
             <div className="row">
               <div className="col-xs-12 col-sm-6">
                 <h2>
-                  Modus is seamless, granular, bottom-up planning.
+                  Employ seamless, granular, bottom-up planning.
                 </h2>
                 <p>
                   The prerequisite tier comprising everything your brand needs to forge a solid foundation for volume and promotional planning. Data can be viewed at a variety of levels throughout the supply chain, including inbound and outbound distribution centers, retailers and distributors. Modus provides data transformation and visualizations that simply would not be possible in a spreadsheet.
@@ -51,7 +51,7 @@ const ModulesPage = ({ data, location }) => {
                   Maximizing and controlling trade spend is the key to outperforming the competition.
                 </h2>
                 <p>
-                  The Modus Planning Trade Promotion Management module allows brands to have a firm grasp of their promotion plans and to maximize trade spend. Modus trade variables help protect retailer margins so both the brand and retailer benefit. Included is a scenario planner and optimizer which maximizes lift percentages across user-defined constraints.
+                  The Trade Promotion Management module allows brands to have a firm grasp of their promotion plans and to maximize trade spend. Modus trade variables help protect retailer margins so both the brand and retailer benefit. Included is a scenario planner and optimizer which maximizes lift percentages across user-defined constraints.
                 </p>
               </div>
             </div>
@@ -66,7 +66,7 @@ const ModulesPage = ({ data, location }) => {
                   Ensure success on shelf by proactively managing customer orders.
                 </h2>
                 <p>
-                  Modus Order Validation gives your brand the tools to determine if customers are ordering appropriately. This ensures your brand is on-shelf with the right quantity. Optimize your shelf presence among the competition by avoiding costly stockouts and spoils and hit shelf resets with excellence.
+                  Order Validation gives your brand the tools to determine if customers are ordering appropriately. This ensures your brand is on-shelf with the right quantity. Optimize your shelf presence among the competition by avoiding costly stockouts and spoils and hit shelf resets with ease.
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">

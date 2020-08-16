@@ -33,7 +33,7 @@ const ResourcesPage = ({ data, location }) => {
             </div>
             <div className="col-xs-12 col-sm-6">
               <h2>
-                Why Bottom-Up is Better
+                Why Bottom-Up Demand Planning is Better
               </h2>
               <iframe
                 src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1596033736&f=AqUcvyX0WigTyROwe1MMWA&d=0&m=p&r=360p+480p+720p&volume=100&start_res=480p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options="
@@ -53,7 +53,7 @@ const ResourcesPage = ({ data, location }) => {
                 <h3>Modus Planning White Paper</h3>
                 <img src={logo} />
                 <p>
-                  An overview of why Modus Planning is a CPG revolution.
+                  How brands update processes to catalyze growth.
                 </p>
               </a>
             </div>

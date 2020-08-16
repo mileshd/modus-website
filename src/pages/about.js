@@ -20,7 +20,7 @@ const AboutPage = ({ data, location }) => {
           <div className="container">
             <h1>Philosophy</h1>
             <h4>
-              We believe that entrepreneurs and innovators have a right to the best systems and practices. Our mission is to provide the tools they need to plan and execute their business with excellence.
+              Our mission is to provide the tools they need to masterfully plan and execute their business.
             </h4>
             <h4>
               Our applications are created by CPG people for CPG people. We strive to develop products that are massively impactful, while being easy to afford, and even easier to learn.
@@ -45,10 +45,10 @@ const AboutPage = ({ data, location }) => {
                   With majors in Supply Chain and Information Systems, at the University of Maryland (just like Miles), Ryan went the supply chain route and joined the select Unilever's Future Leader Program.
                 </p>
                 <p>
-                  There, Ryan led the S&OP/Demand Planning process for Popsicle and Ben & Jerry's, before taking the leap and going to the then 4-person startup, Icelandic Provisions. Through Ryan's tenure, Icelandic Provisions has been consistently recognized as one of the fastest growing brands in the dairy yogurt category nation-wide.
+                  There, Ryan led the S&OP/Demand Planning process for Popsicle and Ben & Jerry's, before taking the leap and going to the then four-person startup, Icelandic Provisions. Through Ryan's tenure, Icelandic Provisions has been consistently recognized as one of the fastest growing brands in the dairy yogurt category nation-wide.
                 </p>
                 <p>
-                  Ryan quickly realized that the dire need for a cloud-based bottoms-up planning system like Modus Planning extended throughout the CPG world. Seeing this, Ryan and Miles have spent the past 5 years working closely with rapidly growing brands to refine Modus Planning into the best-in-class system it is today.
+                  Ryan quickly realized that the dire need for a cloud-based bottoms-up planning system like Modus Planning extended throughout the CPG world. Seeing this, Ryan and Miles have spent the past five years working closely with rapidly growing brands to refine Modus Planning into the best-in-class system it is today.
                 </p>
                 <p>
                   Today, Modus Planning is the central planning operating system of high-performing, high-growth brands across the supermarket. Ryan leads the onboarding, training, and implementation efforts along with high-level business strategy. 
@@ -67,7 +67,7 @@ const AboutPage = ({ data, location }) => {
                   Miles graduated from the University of Maryland with degress in Information Systems and Supply Chain Management (just like Ryan), and opted to pursue application development at General Electric. There, Miles completed GE's Information Technology Leadership program and gained experience in Cybersecurity, Full-Stack Development, and Agile Project Management. Miles took the leap to join OnePage Software full-time in 2016 and build Modus Planning.
                 </p>
                 <p>
-                  Web application development is Miles' passion. He has been developing for the web since 2007 and is constantly in a state learning and refining his craft. After 4 years of work, Miles is excited to see the power brands achieve and the value driven when using Modus Planning.
+                  Web application development is Miles' passion. He has been developing for the web since 2007 and is constantly in a state learning and refining his craft. After four years of work, Miles is excited to see the power brands achieve and the value driven when using Modus Planning.
                 </p>
                 <p>
                   Miles heads the product development and operations side of OnePage software as well as high-level business strategy and execution.
@@ -87,9 +87,6 @@ const AboutPage = ({ data, location }) => {
                 </p>
                 <p>
                   Brian has worked with OnePage Software since spring 2017 as the Director of Outreach before making the leap full-time and becoming the CFO in the summer of 2020.
-                </p>
-                <p>
-                  In Brian’s free time, he enjoys participating in competitive sports and giving back to the community. Brian volunteers for KEEN New York, which provides athletic programming for children with mental disabilities.
                 </p>
                 <p>
                   Brian oversees Sales, Marketing, and Finance for OnePage Software.
