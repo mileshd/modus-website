@@ -7,7 +7,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import enlightenedLogo from '../../content/assets/enlightened-logo.png'
 import huLogo from '../../content/assets/hu-logo.jpg'
-import deepLogo from '../../content/assets/deep-logo.svg'
+import deepLogo from '../../content/assets/deep-logo-2.png'
+import brightFarmsLogo from '../../content/assets/bright-farms-logo.png'
 import problemPicture from '../../content/assets/home-problem.jpg'
 import './index.css'
 
@@ -27,22 +28,20 @@ const Index = ({ data, location }) => {
                   Plan Your Business And Grow Your Brand With Confidence
                 </h1>
                 <h2>
-                  With 
                   <span className="pitch-demand-planning">
                     Demand Planning 
-                  </span>,
+                  </span>
                   <div>
                     <span className="pitch-trade-promotion-management">
                       Trade Promotion Management 
-                    </span>,
+                    </span>
                   </div>
-                  and
                   <span className="pitch-order-management">
-                    Order Validation
+                    Customer Order Validation
                   </span>
                 </h2>
                 <h1>
-                  Modus Planning Is Your Retail Operating System
+                  OnePage Software Presents: Modus Planning, <i>the</i> Retail Operating System.
                 </h1>
                 <div className="button-container">
                   <a href="/contact" className="btn btn-primary get-in-touch-button">
@@ -55,16 +54,19 @@ const Index = ({ data, location }) => {
         </div>
         <div className="clients">
           <div className="container">
-            <h1>Some of the Brands Growing with Us</h1>
+            <h1>Brands Growing with Us</h1>
             <div className="row clients__logos">
-              <div className="col-xs-12 col-sm-6 col-md-4">
+              <div className="col-xs-12 col-sm-6 col-md-3">
                 <img className="logo-picture" src={enlightenedLogo}/>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-4">
+              <div className="col-xs-12 col-sm-6 col-md-3">
                 <img className="logo-picture" src={huLogo}/>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-4">
+              <div className="col-xs-12 col-sm-6 col-md-3">
                 <img className="logo-picture" src={deepLogo}/>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-3">
+                <img className="logo-picture" src={brightFarmsLogo}/>
               </div>
             </div>
           </div>
@@ -123,7 +125,7 @@ const Index = ({ data, location }) => {
         </div>
         <div className="benefits">
           <div className="container-fluid">
-            <h1>Modus Planning Means Cross-Functional Harmony</h1>
+            <h1>Modus Planning Drives Cross-Functional Harmony</h1>
             <div className="row">
               <div className="col-xs-12 col-sm-4">
                 <h2>Supply Chain</h2>
@@ -163,10 +165,10 @@ const Index = ({ data, location }) => {
                 </ul>
               </div>
               <div className="col-xs-12 col-sm-4">
-                <h2>Finance & S&OP</h2>
+                <h2>Financial Planning</h2>
                 <ul>
                   <li>
-                    Always have the latest gross sales and trade forecast at hand. 
+                    Always have the latest gross sales and trade forecast.
                   </li>
                   <li>
                     Accrue trade spend based on the aligned promotion plan.

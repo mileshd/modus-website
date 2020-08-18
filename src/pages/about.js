@@ -4,6 +4,7 @@ import Image from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import onepageLogo from '../../content/assets/onepage-logo.png'
 import ryanPicture from '../../content/assets/ryan-picture.jpeg'
 import milesPicture from '../../content/assets/miles-portrait-1-small.jpg'
 import brianPicture from '../../content/assets/brian-picture.jpeg'
@@ -16,14 +17,23 @@ const AboutPage = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="About Us" />
       <div className="about">
+        <div className="company">
+          <div className="container">
+            <div className="company-container clearfix">
+              <img src={onepageLogo} className="onepage-logo pull-left" />
+              <div className="company-name">OnePage Software</div>
+              <div className="company-slogan">Capabilities that Trenscend</div>
+            </div>
+          </div>
+        </div>
         <div className="philosophy">
           <div className="container">
             <h1>Philosophy</h1>
             <h4>
-              Our mission is to provide the tools they need to masterfully plan and execute their business.
+              Our mission is to provide the tools CPG companies need to masterfully plan and execute their business.
             </h4>
             <h4>
-              Our applications are created by CPG people for CPG people. We strive to develop products that are massively impactful, while being easy to afford, and even easier to learn.
+              OnePage Software's applications are created by CPG people for CPG people. We strive to develop products that are massively impactful, while being easy to afford, and even easier to learn.
             </h4>
             <h4>
               This philosophy guides our approach to every client relationship. We desire to create long-lasting, robust partnerships where community feedback allows us to optimize and refine our products to drive the most value possible.

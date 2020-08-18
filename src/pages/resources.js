@@ -53,16 +53,7 @@ const ResourcesPage = ({ data, location }) => {
                 <h3>Modus Planning White Paper</h3>
                 <img src={logo} />
                 <p>
-                  How brands update processes to catalyze growth.
-                </p>
-              </a>
-            </div>
-            <div className="col-xs-12 col-sm-4">
-              <a href="/maturity-model" className="resources__article">
-                <h3>Growth Brand Planning & Maturity Model</h3>
-                <i className="fa fa-line-chart" />
-                <p>
-                  How brands grow to be unmitigated success stories. 
+                  Where do you stand in your brand's journey?
                 </p>
               </a>
             </div>
@@ -72,6 +63,15 @@ const ResourcesPage = ({ data, location }) => {
                 <i className="fa fa-usd" />
                 <p>
                   10 reasons Modus will turbo-charge your brand.
+                </p>
+              </a>
+            </div>
+            <div className="col-xs-12 col-sm-4">
+              <a href="/maturity-model" className="resources__article">
+                <h3>Growth Brand Planning & Maturity Model</h3>
+                <i className="fa fa-line-chart" />
+                <p>
+                  How brands grow to be unmitigated success stories. 
                 </p>
               </a>
             </div>

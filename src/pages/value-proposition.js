@@ -12,9 +12,18 @@ const ValuePropositionPage = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Modus Planning Value Proposition" />
-      <div className="maturity-model">
+      <div className="value-proposition">
         <div className="container">
-          <h1>Modus Planning Top 10 Value Propositions</h1>
+          <div className="value-proposition__header clearfix">
+            <div className="pull-left">
+              <h1>Modus Planning Top 10 Value Propositions</h1>
+            </div>
+            <div className="pull-right">
+              <a className="btn btn-default" href="/resources">
+                Back
+              </a>
+            </div>
+          </div>
 
           <p>
             Modus Planning has been proven to widen your margins by enabling its users to master go-to-market execution.

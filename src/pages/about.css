@@ -11,6 +11,38 @@
   line-height: 1.75;
   margin-bottom: 35px;
 }
+
+.about .company {
+  padding: 25px;
+}
+
+.about .company .company-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.about .company .company-name {
+  font-size: 4em;
+  margin-top: 25px;
+}
+.about .company .company-slogan {
+  font-size: 2.75em;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .about .company {
+    text-align: center;
+  }
+  .about .company .company-name {
+    margin-top: 0px;
+  }
+  .about .company img {
+    float: none !important;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .about .philosophy {
   padding: 25px;
   background-image: url(../../content/assets/philosophy-background-small.jpg);

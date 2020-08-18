@@ -76,14 +76,17 @@
 }
 
 .pitch-demand-planning {
-  margin-left: 8px;
+  font-size: 38px;
+  /*margin-left: 8px;*/
   color: #e1ab04;
 }
 .pitch-trade-promotion-management {
+  font-size: 38px;
   color: #2ecc71;
 }
 .pitch-order-management {
-  margin-left: 8px;
+  font-size: 38px;
+  /*margin-left: 8px;*/
   color: #3e9ddd;
 }
 

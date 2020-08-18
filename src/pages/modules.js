@@ -19,6 +19,12 @@ const ModulesPage = ({ data, location }) => {
         <div className="intro">
           <div className="container">
             <h1>Modus Planning Works for Brands of Any Size</h1>
+            <h2>
+              Whether your brand is just starting out or well-established nationally, 
+            </h2>
+            <h2>
+              Modus Planning's three unique tiers cater to your needs.
+            </h2>
           </div>
         </div>
         <div className="demand">
@@ -59,14 +65,14 @@ const ModulesPage = ({ data, location }) => {
         </div>
         <div className="inventory">
           <div className="container">
-            <h1>Order Validation</h1>
+            <h1>Customer Order Validation</h1>
             <div className="row">
               <div className="col-xs-12 col-sm-6">
                 <h2>
                   Ensure success on shelf by proactively managing customer orders.
                 </h2>
                 <p>
-                  Order Validation gives your brand the tools to determine if customers are ordering appropriately. This ensures your brand is on-shelf with the right quantity. Optimize your shelf presence among the competition by avoiding costly stockouts and spoils and hit shelf resets with ease.
+                  Order Validation gives your brand the tools to determine if customers are ordering appropriately. This ensures your brand is on-shelf with the right quantity. Optimize your shelf presence among the competition by mastering new item launches while avoiding costly stockouts and spoils.
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">
@@ -93,7 +99,7 @@ const ModulesPage = ({ data, location }) => {
               </h3>
             </div>
             <a href="/contact" className="btn btn-primary get-in-touch-button">
-              Get in Touch
+              Schedule a Demo
             </a>
           </div>
         </div>
