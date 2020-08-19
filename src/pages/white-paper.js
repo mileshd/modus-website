@@ -14,7 +14,16 @@ const WhitePaperPage = ({ data, location }) => {
       <SEO title="Modus Planning White Paper" />
       <div className="white-paper">
         <div className="container">
-          <h1>Modus Planning White Paper</h1>
+          <div className="white-paper__header clearfix">
+            <div className="pull-left">
+              <h1>Modus Planning White Paper</h1>
+            </div>
+            <div className="pull-right">
+              <a className="btn btn-default" href="/resources">
+                Back
+              </a>
+            </div>
+          </div>
           <h2>The Current State of Planning in a Growing Brand:</h2>
           <p>
             "Fragmented", "sporadic", "inconsistent", and "fragile" are the adjectives that principally describe the state of planning a growing brand in retail before Modus Planning. In the past, rapidly growing brands that relied on bottom-up models, in lieu of top-down statistical trends, were not given the tools they needed to properly scale this methodology. This white paper will examine the downstream cross-functional impacts that poor planning can levy throughout the business. It will also demonstrate how the continuous sales and operations planning (S&OP) ways-of-working, enabled by Modus Planning (Modus), can significantly elevate both a brand’s planning and executional efficiency.

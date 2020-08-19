@@ -14,7 +14,16 @@ const MaturityModelPage = ({ data, location }) => {
       <SEO title="Modus Planning Maturity Model" />
       <div className="maturity-model">
         <div className="container">
-          <h1>Growth Brand Planning & Execution Maturity Model</h1>
+          <div className="maturity-model__header clearfix">
+            <div className="pull-left">
+              <h1>Growth Brand Planning & Execution Maturity Model</h1>
+            </div>
+            <div className="pull-right">
+              <a className="btn btn-default" href="/resources">
+                Back
+              </a>
+            </div>
+          </div>
           <p>
             This maturity model represents the stages that growing brands have been observed to undergo as they build out and expand their planning and executional processes. 
           </p>

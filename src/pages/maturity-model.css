@@ -4,6 +4,14 @@
   min-height: 100vh;
 }
 
+.maturity-model__header h1 {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.maturity-model__header .btn {
+  margin-top: 20px;
+}
+
 .maturity-model p {
   margin-left: 15px;
 }

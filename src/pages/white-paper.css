@@ -4,6 +4,14 @@
   min-height: 100vh;
 }
 
+.white-paper__header h1 {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.white-paper__header .btn {
+  margin-top: 20px;
+}
+
 .white-paper h2 {
   margin-top: 30px;
   margin-bottom: 15px;
