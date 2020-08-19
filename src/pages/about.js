@@ -22,7 +22,7 @@ const AboutPage = ({ data, location }) => {
             <div className="company-container clearfix">
               <img src={onepageLogo} className="onepage-logo pull-left" />
               <div className="company-name">OnePage Software</div>
-              <div className="company-slogan">Capabilities that Trenscend</div>
+              <div className="company-slogan">Capabilities that Transcend</div>
             </div>
           </div>
         </div>
