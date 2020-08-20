@@ -3,18 +3,18 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import './contact.css'
+import './schedule-a-demo.css'
 
-const Contact = ({ data, location }) => {
+const ScheduleADemo = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Contact Modus Planning" />
-      <div className="contact">
+      <SEO title="Schedule a Demo" />
+      <div className="schedule-a-demo">
         <iframe
-          title="get-in-touch"
-          src="https://forms.monday.com/forms/embed/0bec93b8c27f233301aa8aa04c1f9b1a"
+          title="schedule-a-demo"
+          src="https://forms.monday.com/forms/embed/dac70f537c7f0a25c0cf79dd8a3b4031"
           width="100%"
           height="800px"
         >
@@ -24,7 +24,7 @@ const Contact = ({ data, location }) => {
   )
 }
 
-export default Contact
+export default ScheduleADemo
 
 export const pageQuery = graphql`
   query {

@@ -1,12 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Image from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import demandScreenshot from '../../content/assets/demand-planning-screenshot.png'
-import tradeScreenshot from '../../content/assets/trade-performance-screenshot.png'
-import orderMgmtScreenshot from '../../content/assets/customer-order-mgmt-screenshot.png'
 import './modules.css'
 
 const ModulesPage = ({ data, location }) => {
@@ -72,7 +68,7 @@ const ModulesPage = ({ data, location }) => {
                   Ensure success on shelf by proactively managing customer orders.
                 </h2>
                 <p>
-                  Order Validation gives your brand the tools to determine if customers are ordering appropriately. This ensures your brand is on-shelf with the right quantity. Optimize your shelf presence among the competition by mastering new item launches while avoiding costly stockouts and spoils.
+                  Customer Order Validation gives your brand the tools to determine if customers are ordering appropriately. This ensures your brand is on-shelf with the right quantity. Optimize your shelf presence among the competition by mastering new item launches while avoiding costly stockouts and spoils.
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">
@@ -83,7 +79,8 @@ const ModulesPage = ({ data, location }) => {
         </div>
         <div className="outro">
           <div className="container">
-            <h1>We Guide You Through Onboarding, Every Step of the Way</h1>
+            <h1>We Guide You Through Onboarding,</h1>
+            <h1>Every Step of the Way</h1>
             <div className="outro__body">
               <h3>
                 We understand that a growing brand has minimal time to work through onboarding new applications.
@@ -92,13 +89,10 @@ const ModulesPage = ({ data, location }) => {
                 We have lived it. We get it.
               </h3>
               <h3>
-                Our industry experts provide the support and training you need to operate your brand with Modus Planning.
-              </h3>
-              <h3>
-                Our goal is your success.
+                Our industry experts provide the support and training you need to operate your brand with Modus Planning. Our goal is your success.
               </h3>
             </div>
-            <a href="/contact" className="btn btn-primary get-in-touch-button">
+            <a href="/schedule-a-demo" className="btn btn-primary get-in-touch-button">
               Schedule a Demo
             </a>
           </div>
@@ -128,16 +122,3 @@ export const pageQuery = graphql`
     }
   }
 `
-//We understand that a growing brand has minimal time to work through a software implementation. We have lived it, we get it.
-
-            //<div className="outro__body">
-              //<h3>
-                //Software implementations can be intense, but our team will make it as painless as possible.
-              //</h3>
-              //<h3>
-                //Our industry experts provide the ongoing support and training you need to begin operating with Modus Planning.
-              //</h3>
-              //<h3>
-                //We then provide regular check-ins to inform you of system enhancements to ensure you are using the platform to its full potential.
-              //</h3>
-            //</div>

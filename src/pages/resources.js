@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Image from "gatsby-image"
 import logo from '../../content/assets/logo.png'
 
 import Layout from "../components/layout"
@@ -21,6 +20,7 @@ const ResourcesPage = ({ data, location }) => {
                 Introduction to Modus Planning
               </h2>
               <iframe
+                title="intro-to-modus-planning"
                 src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1596033587&f=RLYna3VEYcPtkrDUMj22Qg&d=0&m=p&r=360p+480p+720p&volume=100&start_res=480p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options="
                 width="100%"
                 height="324"
@@ -33,9 +33,10 @@ const ResourcesPage = ({ data, location }) => {
             </div>
             <div className="col-xs-12 col-sm-6">
               <h2>
-                Why Bottom-Up Demand Planning is Better
+                Why Bottom-Up Demand Planning?
               </h2>
               <iframe
+                title="why-bottom-up"
                 src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1596033736&f=AqUcvyX0WigTyROwe1MMWA&d=0&m=p&r=360p+480p+720p&volume=100&start_res=480p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options="
                 width="100%"
                 height="324"
@@ -51,9 +52,9 @@ const ResourcesPage = ({ data, location }) => {
             <div className="col-xs-12 col-sm-4">
               <a href="/white-paper" className="resources__article">
                 <h3>Modus Planning White Paper</h3>
-                <img src={logo} />
+                <img src={logo} alt="Modus"/>
                 <p>
-                  Where do you stand in your brand's journey?
+                  Transforming your brand with the Modus Planning philosophy.
                 </p>
               </a>
             </div>
@@ -71,7 +72,7 @@ const ResourcesPage = ({ data, location }) => {
                 <h3>Growth Brand Planning & Maturity Model</h3>
                 <i className="fa fa-line-chart" />
                 <p>
-                  How brands grow to be unmitigated success stories. 
+                  Navigating your brand's growth and scalability.
                 </p>
               </a>
             </div>
@@ -81,6 +82,13 @@ const ResourcesPage = ({ data, location }) => {
     </Layout>
   )
 }
+
+                //<p>
+                  //Your brand's scalability road map.
+                //</p>
+                //<p>
+                  //How brands grow to be unmitigated success stories. 
+                //</p>
 
 export default ResourcesPage
 

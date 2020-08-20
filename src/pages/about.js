@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Image from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -20,7 +19,7 @@ const AboutPage = ({ data, location }) => {
         <div className="company">
           <div className="container">
             <div className="company-container clearfix">
-              <img src={onepageLogo} className="onepage-logo pull-left" />
+              <img src={onepageLogo} alt="OnePage" className="onepage-logo pull-left" />
               <div className="company-name">OnePage Software</div>
               <div className="company-slogan">Capabilities that Transcend</div>
             </div>
@@ -30,7 +29,7 @@ const AboutPage = ({ data, location }) => {
           <div className="container">
             <h1>Philosophy</h1>
             <h4>
-              Our mission is to provide the tools CPG companies need to masterfully plan and execute their business.
+              Our mission is to provide the tools consumer packaged goods (CPG) companies need to masterfully plan and execute their business.
             </h4>
             <h4>
               OnePage Software's applications are created by CPG people for CPG people. We strive to develop products that are massively impactful, while being easy to afford, and even easier to learn.
@@ -45,7 +44,7 @@ const AboutPage = ({ data, location }) => {
             <h1>The Team</h1>
             <div className="row team-member">
               <div className="col-xs-12 col-sm-3 img-container">
-                <img src={ryanPicture} className="team-picture" />
+                <img src={ryanPicture} alt="Ryan Moore" className="team-picture" />
                 <h3>
                   Ryan Moore, CEO
                 </h3>
@@ -67,14 +66,14 @@ const AboutPage = ({ data, location }) => {
             </div>
             <div className="row team-member">
               <div className="col-xs-12 col-sm-3 img-container">
-                <img src={milesPicture} className="team-picture" />
+                <img src={milesPicture} alt="Miles Dickinson" className="team-picture" />
                 <h3>
                   Miles Dickinson, CTO
                 </h3>
               </div>
               <div className="col-xs-12 col-sm-9">
                 <p>
-                  Miles graduated from the University of Maryland with degress in Information Systems and Supply Chain Management (just like Ryan), and opted to pursue application development at General Electric. There, Miles completed GE's Information Technology Leadership program and gained experience in Cybersecurity, Full-Stack Development, and Agile Project Management. Miles took the leap to join OnePage Software full-time in 2016 and build Modus Planning.
+                  Miles graduated from the University of Maryland with degrees in Information Systems and Supply Chain Management (just like Ryan), and opted to pursue application development at General Electric. There, Miles completed GE's Information Technology Leadership program and gained experience in Cybersecurity, Full-Stack Development, and Agile Project Management. Miles took the leap to join OnePage Software full-time in 2016 and build Modus Planning.
                 </p>
                 <p>
                   Web application development is Miles' passion. He has been developing for the web since 2007 and is constantly in a state learning and refining his craft. After four years of work, Miles is excited to see the power brands achieve and the value driven when using Modus Planning.
@@ -86,7 +85,7 @@ const AboutPage = ({ data, location }) => {
             </div>
             <div className="row team-member">
               <div className="col-xs-12 col-sm-3 img-container">
-                <img src={brianPicture} className="team-picture" />
+                <img src={brianPicture} alt="Brian Doyle" className="team-picture" />
                 <h3>
                   Brian Doyle, CFO
                 </h3>

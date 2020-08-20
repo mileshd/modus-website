@@ -1,10 +1,10 @@
-// Gatsby supports TypeScript natively!
 import React from "react"
 import { PageProps, Link, graphql } from "gatsby"
 import Image from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import onepageLogo from '../../content/assets/onepage-logo.png'
 import enlightenedLogo from '../../content/assets/enlightened-logo.png'
 import huLogo from '../../content/assets/hu-logo.jpg'
 import deepLogo from '../../content/assets/deep-logo-2.png'
@@ -25,7 +25,10 @@ const Index = ({ data, location }) => {
             <div className="pitch-content">
               <div className="new-pitch__text">
                 <h1>
-                  Plan Your Business And Grow Your Brand With Confidence
+                  Plan Your Business
+                </h1>
+                <h1>
+                  Grow Your Brand With Confidence
                 </h1>
                 <h2>
                   <span className="pitch-demand-planning">
@@ -41,7 +44,11 @@ const Index = ({ data, location }) => {
                   </span>
                 </h2>
                 <h1>
-                  OnePage Software Presents: Modus Planning, <i>the</i> Retail Operating System.
+                  <img src={onepageLogo} className="onepage-logo"/>
+                  OnePage Software Presents: Modus Planning
+                </h1>
+                <h1>
+                  <i>The</i> Retail Operating System
                 </h1>
                 <div className="button-container">
                   <a href="/contact" className="btn btn-primary get-in-touch-button">
@@ -86,10 +93,7 @@ const Index = ({ data, location }) => {
             <div className="picture-overlay"></div>
             <h1>Problem</h1>
             <h2>
-              For most rapidly growing companies, who cannot use statistical models, the plans are kept in a number of uncollaborative, disorganized, and error-prone spreadsheets.
-            </h2>
-            <h2>
-              At best, this is controlled chaos. At worst, this could compromise your business' future.
+              For most rapidly growing companies, executing their business is synonymous with uncollaborative, disorganized and error-prone spreadsheets. Do not compromise the future of your business by using outdated methods.
             </h2>
           </div>
           <div className="problem-picture">
@@ -151,7 +155,7 @@ const Index = ({ data, location }) => {
                     Plan your sales and trade plans with high granularity. 
                   </li>
                   <li>
-                    Keep your promotion calendar up-to-date across all sales reps with permissions and approvals.
+                    Keep your promotion calendar up-to-date across all sales people with permissions and approvals.
                   </li>
                   <li>
                     Understand trade spend and gross sales implications with each promotion.
@@ -204,39 +208,6 @@ const Index = ({ data, location }) => {
     </Layout>
   )
 }
-
-        /*<div className="call-to-action">*/
-          /*<div className="container">*/
-            /*<div className="row">*/
-              /*<div className="col-xs-12">*/
-                /*<h1>*/
-                  /*A Better Way is Here*/
-                /*</h1>*/
-                /*<h1>*/
-                  /*Join the New Standard for Growing Brands*/
-                /*</h1>*/
-                /*<a href="/contact" className="btn btn-primary call-to-action-button">*/
-                  /*Schedule a Demo*/
-                /*</a>*/
-              /*</div>*/
-            /*</div>*/
-          /*</div>*/
-        /*</div>*/
-
-                /*<h2 className="pitch-list">*/
-                  /*<ul>*/
-                    /*<li className="pitch-demand-planning">*/
-                      /*Demand Planning */
-                    /*</li>*/
-                    /*<li className="trade-promotion-management">*/
-                      /*Trade Promotion Management*/
-                    /*</li>*/
-                    /*<li className="pitch-order-management">*/
-                      /*Order Management*/
-                    /*</li>*/
-                  /*</ul>*/
-                /*</h2>*/
-
 
 export default Index
 

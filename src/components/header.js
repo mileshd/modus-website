@@ -24,7 +24,7 @@ export default class Header extends React.Component {
             </button>
             <span className="brand-container active">
               <a className="navbar-brand" href="/">
-                <img src={logo} />
+                <img src={logo} alt="Modus Planning" />
                 Modus Planning
               </a>
             </span>
