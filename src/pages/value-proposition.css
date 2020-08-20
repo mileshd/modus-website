@@ -11,6 +11,18 @@
 .value-proposition__header .btn {
   margin-top: 20px;
 }
+@media (max-width: 992px) {
+  .pull-left {
+    float: none !important;
+  }
+  .pull-right {
+    float: none !important;
+  }
+  .value-proposition__header .btn {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}
 
 .value-proposition h2 {
   margin-top: 30px;

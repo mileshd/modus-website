@@ -51,9 +51,11 @@
   line-height: 1.5;
   font-size: 2em;
 }
-.new-pitch__text .get-in-touch-btn {
+.new-pitch__text .get-in-touch-button {
+  margin-top: 25px;
   margin-bottom: 25px;
 }
+
 @media (max-width: 768px) {
   .new-pitch, .new-pitch .pitch-overlay {
     height: 1100px;
@@ -235,7 +237,11 @@ p {
   vertical-align: top;
   background: #eee;
 }
+.problem-text h1 {
+  font-size: 3em;
+}
 .problem-text h2 {
+  font-size: 2.25em;
   line-height: 1.75;
 }
 
@@ -260,8 +266,12 @@ p {
   vertical-align: top;
   background: #eee;
 }
+.solution-text h1 {
+  font-size: 3em;
+}
 .solution-text h2 {
   line-height: 1.75;
+  font-size: 2.25em;
 }
 .solution-picture {
   height: 100%;
@@ -297,9 +307,7 @@ p {
   .problem-picture {
     display: none;
   }
-}
 
-@media (max-width: 768px) {
   .solution {
     height: auto;
   }

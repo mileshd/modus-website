@@ -11,6 +11,18 @@
 .white-paper__header .btn {
   margin-top: 20px;
 }
+@media (max-width: 992px) {
+  .pull-left {
+    float: none !important;
+  }
+  .pull-right {
+    float: none !important;
+  }
+  .white-paper__header .btn {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}
 
 .white-paper h2 {
   margin-top: 30px;
