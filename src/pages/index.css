@@ -58,7 +58,7 @@
 
 @media (max-width: 768px) {
   .new-pitch, .new-pitch .pitch-overlay {
-    height: 1100px;
+    height: 1200px;
   }
 
   .new-pitch__text h1 {
