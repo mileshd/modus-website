@@ -46,21 +46,24 @@ const AboutPage = ({ data, location }) => {
               <div className="col-xs-12 col-sm-3 img-container">
                 <img src={ryanPicture} alt="Ryan Moore" className="team-picture" />
                 <h3>
-                  Ryan Moore, CEO
+                  Ryan Moore
                 </h3>
+                <h4>
+                  CEO, Co-Founder
+                </h4>
               </div>
               <div className="col-xs-12 col-sm-9">
                 <p>
-                  With majors in Supply Chain and Information Systems, at the University of Maryland (just like Miles), Ryan went the supply chain route and joined the select Unilever's Future Leader Program.
+                  With majors in Supply Chain and Information Systems from the University of Maryland, Ryan pursued supply chain and joined the select Unilever's Future Leader Program.
                 </p>
                 <p>
-                  There, Ryan led the S&OP/Demand Planning process for Popsicle and Ben & Jerry's, before taking the leap and going to the then four-person startup, Icelandic Provisions. Through Ryan's tenure, Icelandic Provisions has been consistently recognized as one of the fastest growing brands in the dairy yogurt category nation-wide.
+                  There, Ryan led the S&OP/Demand Planning process for Popsicle and Ben & Jerry's before taking the leap and going to the then four-person startup, Icelandic Provisions. Through Ryan's tenure, Icelandic Provisions has been consistently recognized as one of the fastest growing brands in the dairy yogurt category nationwide.
                 </p>
                 <p>
-                  Ryan quickly realized that the dire need for a cloud-based bottoms-up planning system like Modus Planning extended throughout the CPG world. Seeing this, Ryan and Miles have spent the past five years working closely with rapidly growing brands to refine Modus Planning into the best-in-class system it is today.
+                  Ryan quickly realized that the dire need for a cloud-based bottom-up planning system extended throughout the CPG world. Seeing this, Ryan and Miles have spent the past five years working closely with rapidly growing brands to create Modus Planning into the best-in-class system it is today.
                 </p>
                 <p>
-                  Today, Modus Planning is the central planning operating system of high-performing, high-growth brands across the supermarket. Ryan leads the onboarding, training, and implementation efforts along with high-level business strategy. 
+                  Ryan leads the onboarding, training, and implementation efforts along with high-level business strategy. 
                 </p>
               </div>
             </div>
@@ -68,18 +71,21 @@ const AboutPage = ({ data, location }) => {
               <div className="col-xs-12 col-sm-3 img-container">
                 <img src={milesPicture} alt="Miles Dickinson" className="team-picture" />
                 <h3>
-                  Miles Dickinson, CTO
+                  Miles Dickinson
                 </h3>
+                <h4>
+                CTO, Co-Founder
+                </h4>
               </div>
               <div className="col-xs-12 col-sm-9">
                 <p>
-                  Miles graduated from the University of Maryland with degrees in Information Systems and Supply Chain Management (just like Ryan), and opted to pursue application development at General Electric. There, Miles completed GE's Information Technology Leadership program and gained experience in Cybersecurity, Full-Stack Development, and Agile Project Management. Miles took the leap to join OnePage Software full-time in 2016 and build Modus Planning.
+                  Miles graduated from the University of Maryland with degrees in Information Systems and Supply Chain Management, and opted to pursue application development at General Electric. There, Miles completed GE's Information Technology Leadership program and gained experience in cybersecurity, full-stack development, and agile project management. Miles joined OnePage Software full-time in 2016 to build Modus Planning.
                 </p>
                 <p>
-                  Web application development is Miles' passion. He has been developing for the web since 2007 and is constantly in a state learning and refining his craft. After four years of work, Miles is excited to see the power brands achieve and the value driven when using Modus Planning.
+                  Web application development is Miles' passion. He has been programming since 2007 and is constantly learning and refining his craft. After four years of work, Miles is excited to see the results achieved and value driven from Modus Planning.
                 </p>
                 <p>
-                  Miles heads the product development and operations side of OnePage software as well as high-level business strategy and execution.
+                  Miles heads Product Development and Operations at OnePage Software.
                 </p>
               </div>
             </div>
@@ -87,15 +93,18 @@ const AboutPage = ({ data, location }) => {
               <div className="col-xs-12 col-sm-3 img-container">
                 <img src={brianPicture} alt="Brian Doyle" className="team-picture" />
                 <h3>
-                  Brian Doyle, CFO
+                  Brian Doyle
                 </h3>
+                <h4>
+                  CFO
+                </h4>
               </div>
               <div className="col-xs-12 col-sm-9">
                 <p>
-                  Graduating with degrees in Finance and Marketing from the University of Maryland, Brian has diverse financial experience and is a CFA charterholder. Brian began his career in Fannie Mae’s finance rotational program before moving to Goldman Sachs where he was charged with complex investment valuation within GSAM.
+                  Graduating with degrees in Finance and Marketing from the University of Maryland, Brian has diverse financial experience and is a CFA charterholder. Brian began his career in Fannie Mae’s Finance Rotation Program before moving to Goldman Sachs where he was charged with complex investment valuation within GSAM.
                 </p>
                 <p>
-                  Brian has worked with OnePage Software since spring 2017 as the Director of Outreach before making the leap full-time and becoming the CFO in the summer of 2020.
+                  Brian has worked with OnePage Software since spring 2017 as the Director of Outreach before becoming the CFO in the summer of 2020.
                 </p>
                 <p>
                   Brian oversees Sales, Marketing, and Finance for OnePage Software.

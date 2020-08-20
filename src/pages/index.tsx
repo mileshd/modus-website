@@ -25,10 +25,11 @@ const Index = ({ data, location }) => {
             <div className="pitch-content">
               <div className="new-pitch__text">
                 <h1>
-                  Plan Your Business
+                  <img src={onepageLogo} className="onepage-logo"/>
+                  OnePage Software Presents
                 </h1>
                 <h1>
-                  Grow Your Brand With Confidence
+                  Modus Planning: <i>The</i> Retail Operating System
                 </h1>
                 <h2>
                   <span className="pitch-demand-planning">
@@ -44,11 +45,7 @@ const Index = ({ data, location }) => {
                   </span>
                 </h2>
                 <h1>
-                  <img src={onepageLogo} className="onepage-logo"/>
-                  OnePage Software Presents: Modus Planning
-                </h1>
-                <h1>
-                  <i>The</i> Retail Operating System
+                  Grow Your Brand With Confidence
                 </h1>
                 <div className="button-container">
                   <a href="/contact" className="btn btn-primary get-in-touch-button">

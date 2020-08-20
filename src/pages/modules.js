@@ -3,6 +3,9 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import demandScreenshot from '../../content/assets/demand-planning-screenshot.png'
+import tradeScreenshot from '../../content/assets/trade-performance-screenshot.png'
+import orderManagementScreenshot from '../../content/assets/customer-order-mgmt-screenshot.png'
 import './modules.css'
 
 const ModulesPage = ({ data, location }) => {
@@ -36,7 +39,7 @@ const ModulesPage = ({ data, location }) => {
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">
-                <div className="demand-screenshot"></div>
+                <img src={demandScreenshot} />
               </div>
             </div>
           </div>
@@ -46,7 +49,7 @@ const ModulesPage = ({ data, location }) => {
             <h1>Trade Promotion Management</h1>
             <div className="row">
               <div className="col-xs-12 col-sm-6">
-                <div className="trade-screenshot"></div>
+                <img src={tradeScreenshot} />
               </div>
               <div className="col-xs-12 col-sm-6">
                 <h2>
@@ -72,7 +75,7 @@ const ModulesPage = ({ data, location }) => {
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">
-                <div className="inventory-screenshot"></div>
+                <img src={orderManagementScreenshot} />
               </div>
             </div>
           </div>
@@ -122,3 +125,8 @@ export const pageQuery = graphql`
     }
   }
 `
+
+
+                //<div className="trade-screenshot"></div>
+                //<div className="demand-screenshot"></div>
+                //<div className="inventory-screenshot"></div>
