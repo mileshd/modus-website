@@ -18,7 +18,11 @@
   margin-bottom: 30px;
   font-size: 4em;
 }
-
+.modules .demand h2,
+.modules .trade h2,
+.modules .inventory h2 {
+  margin-top: 0;
+}
 
 .modules .intro {
   padding: 100px 0;
