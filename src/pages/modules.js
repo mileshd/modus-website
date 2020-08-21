@@ -39,7 +39,7 @@ const ModulesPage = ({ data, location }) => {
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">
-                <img src={demandScreenshot} />
+                <img src={demandScreenshot} alt="Demand Planning" />
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ const ModulesPage = ({ data, location }) => {
             <h1>Trade Promotion Management</h1>
             <div className="row">
               <div className="col-xs-12 col-sm-6">
-                <img src={tradeScreenshot} />
+                <img src={tradeScreenshot} alt="Trade Promotion Management" />
               </div>
               <div className="col-xs-12 col-sm-6">
                 <h2>
@@ -75,7 +75,7 @@ const ModulesPage = ({ data, location }) => {
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">
-                <img src={orderManagementScreenshot} />
+                <img src={orderManagementScreenshot} alt="Customer Order Validation" />
               </div>
             </div>
           </div>

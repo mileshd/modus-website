@@ -54,6 +54,7 @@ export default class Footer extends React.Component {
                   <a
                     href="https://www.linkedin.com/company/onepagesoftware/"
                     target="_blank"
+                    rel="noopener"
                     className="link"
                   >
                     LinkedIn

@@ -24,6 +24,12 @@
   margin-top: 0;
 }
 
+@media (max-width: 768px) {
+  .modules .trade h2 {
+    margin-top: 20px;
+  }
+}
+
 .modules .intro {
   padding: 100px 0;
   text-align: center;

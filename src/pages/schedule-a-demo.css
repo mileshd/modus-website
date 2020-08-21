@@ -1,3 +1,6 @@
 .schedule-a-demo {
   margin-top: 40px;
 }
+.schedule-a-demo iframe {
+  border: none;
+}

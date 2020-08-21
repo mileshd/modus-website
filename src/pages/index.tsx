@@ -8,8 +8,8 @@ import onepageLogo from '../../content/assets/onepage-logo.png'
 import enlightenedLogo from '../../content/assets/enlightened-logo.png'
 import huLogo from '../../content/assets/hu-logo.jpg'
 import deepLogo from '../../content/assets/deep-logo-2.png'
+import vanLogo from '../../content/assets/van-logo.png'
 import brightFarmsLogo from '../../content/assets/bright-farms-logo.png'
-import problemPicture from '../../content/assets/home-problem.jpg'
 import './index.css'
 
 const Index = ({ data, location }) => {
@@ -60,17 +60,20 @@ const Index = ({ data, location }) => {
           <div className="container">
             <h1>Brands Growing with Us</h1>
             <div className="row clients__logos">
-              <div className="col-xs-12 col-sm-6 col-md-3">
+              <div className="col-xs-12 col-sm-6 col-md-4">
                 <img className="logo-picture" src={enlightenedLogo}/>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-3">
+              <div className="col-xs-12 col-sm-6 col-md-4">
                 <img className="logo-picture" src={huLogo}/>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-3">
+              <div className="col-xs-12 col-sm-6 col-md-4">
                 <img className="logo-picture" src={deepLogo}/>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-3">
+              <div className="col-xs-12 col-sm-6 col-md-offset-2 col-md-4">
                 <img className="logo-picture" src={brightFarmsLogo}/>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-4">
+                <img className="logo-picture" src={vanLogo}/>
               </div>
             </div>
           </div>

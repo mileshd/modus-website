@@ -37,7 +37,7 @@ export default class Header extends React.Component {
               <li className="hidden-xs hidden-md hidden-lg"><a href="/about">About</a></li>
             </ul> 
             <ul className="nav navbar-nav navbar-right">
-              <li><a href="https://app.modusplanning.com" target="_blank">Sign In</a></li>
+              <li><a href="https://app.modusplanning.com" target="_blank" rel="noopener">Sign In</a></li>
               <li>
                 <a
                   href="/contact"
