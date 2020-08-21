@@ -2,22 +2,10 @@
   margin-top: 40px;
 }
 
-.contact .monday-contact-form {
-}
-
 /* Override Monday.com Forms */
 .contact .form-content-component .form-titles .form-is-anonymous-indicator {
   display: none !important;
 }
 .contact iframe {
   border: none;
-}
-.form-wrapper-component .form-content-component {
-  box-shadow: none !important;
-}
-.contact iframe .password-disclaimer {
-  display: none;
-}
-.contact iframe .form-powered-by-monday-component-wrapper .form-powered-by-monday-component {
-  display: none;
 }

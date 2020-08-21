@@ -52,9 +52,6 @@
 .modules .demand {
   padding: 35px 0 60px 0;
   background: #eee;
-  /*background: #e1ab04;*/
-  /*background: #fcdb74;*/
-  /*background: rgba(225, 171, 4, .8);*/
   color: black;
 }
 .modules .demand h1 {
@@ -71,11 +68,6 @@
 .modules .trade {
   padding: 35px 0 60px 0;
   background: #2F2E2E;
-  /*background: #ff7979;*/
-  /*background: #f2a59d;*/
-  /*background: #c9ddef;*/
-  /*background: #2ecc71;*/
-  /*color: black;*/
   color: white;
 }
 .modules .trade h1 {
@@ -91,10 +83,6 @@
 
 .modules .inventory {
   padding: 35px 0 60px 0;
-  /*background: #c9ddef;*/
-  /*background: #3e9ddd;*/
-  /*background: #9eceee;*/
-  /*background: #3e9ddd;*/
   background: #eee;
   color: black;
 }
@@ -120,7 +108,6 @@
   text-align: center;
 }
 .modules .outro .outro__body {
-  /*max-width: 800px;*/
   text-align: left;
   margin: 0 auto;
 }

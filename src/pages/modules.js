@@ -125,8 +125,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
-
-                //<div className="trade-screenshot"></div>
-                //<div className="demand-screenshot"></div>
-                //<div className="inventory-screenshot"></div>

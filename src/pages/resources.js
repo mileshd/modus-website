@@ -83,13 +83,6 @@ const ResourcesPage = ({ data, location }) => {
   )
 }
 
-                //<p>
-                  //Your brand's scalability road map.
-                //</p>
-                //<p>
-                  //How brands grow to be unmitigated success stories. 
-                //</p>
-
 export default ResourcesPage
 
 export const pageQuery = graphql`

@@ -1,6 +1,5 @@
 import React from "react"
 import './header.css'
-//import logo from '../../content/assets/modus-logo-miles-exp.png'
 import logo from '../../content/assets/logo.png'
 
 export default class Header extends React.Component {
