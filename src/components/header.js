@@ -1,6 +1,6 @@
 import React from "react"
 import './header.css'
-import logo from '../../content/assets/logo.png'
+import logo from '../../content/assets/onepage-logo.png'
 
 export default class Header extends React.Component {
   render() {
@@ -23,16 +23,16 @@ export default class Header extends React.Component {
             </button>
             <span className="brand-container active">
               <a className="navbar-brand" href="/">
-                <img src={logo} alt="Modus Planning" />
-                Modus Planning
+                <img src={logo} alt="OnePage Software" />
+                OnePage Software 
               </a>
             </span>
           </div>
           <div id="navbar" className="navbar-collapse collapse">
             <ul className="nav navbar-nav navbar-left">
-              <li><a href="/modules">Modules</a></li>
+              <li><a href="/modules">Modus</a></li>
               <li><a href="/resources">Resources</a></li>
-              <li className="hidden-sm"><a href="/about">About OnePage Software</a></li>
+              <li className="hidden-sm"><a href="/about">About</a></li>
               <li className="hidden-xs hidden-md hidden-lg"><a href="/about">About</a></li>
             </ul> 
             <ul className="nav navbar-nav navbar-right">

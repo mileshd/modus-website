@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Modus Planning`,
+    title: `OnePage Software`,
     author: {
       name: `Miles Dickinson`,
     },

@@ -4,7 +4,7 @@ import Image from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import onepageLogo from '../../content/assets/onepage-logo.png'
+import modusLogo from '../../content/assets/logo.png'
 import enlightenedLogo from '../../content/assets/enlightened-logo.png'
 import huLogo from '../../content/assets/hu-logo.jpg'
 import deepLogo from '../../content/assets/deep-logo-2.png'
@@ -25,10 +25,10 @@ const Index = ({ data, location }) => {
             <div className="pitch-content">
               <div className="new-pitch__text">
                 <h1>
-                  <img src={onepageLogo} className="onepage-logo"/>
                   OnePage Software Presents
                 </h1>
                 <h1>
+                  <img src={modusLogo} className="modus-logo"/>
                   Modus Planning: <i>The</i> Retail Operating System
                 </h1>
                 <h2>

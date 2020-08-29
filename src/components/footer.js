@@ -12,7 +12,7 @@ export default class Footer extends React.Component {
               <h3>Modus Planning</h3>
               <ul>
                 <li>
-                  <a href="/modules" className="link">Modules</a>
+                  <a href="/modules" className="link">Modus</a>
                 </li>
                 <li>
                   <a href="/resources" className="link">Resources</a>

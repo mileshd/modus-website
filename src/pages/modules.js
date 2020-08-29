@@ -13,7 +13,7 @@ const ModulesPage = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Modus Planning Modules" />
+      <SEO title="Modus" />
       <div className="modules">
         <div className="intro">
           <div className="container">

@@ -11,7 +11,7 @@ const ResourcesPage = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Modus Planning Resources" />
+      <SEO title="Modus Resources" />
       <div className="resources">
         <div className="container">
           <div className="row resources-videos">

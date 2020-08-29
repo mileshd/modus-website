@@ -14,7 +14,7 @@ const AboutPage = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="About Us" />
+      <SEO title="About" />
       <div className="about">
         <div className="company">
           <div className="container">
