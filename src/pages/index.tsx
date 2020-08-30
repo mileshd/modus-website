@@ -24,7 +24,7 @@ const Index = ({ data, location }) => {
           <div className="container">
             <div className="pitch-content">
               <div className="new-pitch__text">
-                <h1>
+                <h1 className="onepage-presents">
                   OnePage Software Presents
                 </h1>
                 <h1>

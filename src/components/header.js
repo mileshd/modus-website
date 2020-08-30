@@ -30,13 +30,13 @@ export default class Header extends React.Component {
           </div>
           <div id="navbar" className="navbar-collapse collapse">
             <ul className="nav navbar-nav navbar-left">
-              <li><a href="/modules">Modus</a></li>
+              <li><a href="/modules">Modus Planning</a></li>
               <li><a href="/resources">Resources</a></li>
               <li className="hidden-sm"><a href="/about">About</a></li>
               <li className="hidden-xs hidden-md hidden-lg"><a href="/about">About</a></li>
             </ul> 
             <ul className="nav navbar-nav navbar-right">
-              <li><a href="https://app.modusplanning.com" target="_blank" rel="noopener">Sign In</a></li>
+              <li><a href="https://app.modusplanning.com" target="_blank" rel="noopener noreferrer">Sign In</a></li>
               <li>
                 <a
                   href="/contact"

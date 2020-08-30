@@ -17,7 +17,8 @@
 }
 .footer ul li .link:hover {
   cursor: pointer;
-  color: #E1AB05;
+  /*color: #E1AB05;*/
+  color: #5B9EDE;
   text-decoration: none;
 }
 .footer .copyright {

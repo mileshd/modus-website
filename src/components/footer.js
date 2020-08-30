@@ -9,10 +9,10 @@ export default class Footer extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-3">
-              <h3>Modus Planning</h3>
+              <h3>OnePage Software</h3>
               <ul>
                 <li>
-                  <a href="/modules" className="link">Modus</a>
+                  <a href="/modules" className="link">Modus Planning</a>
                 </li>
                 <li>
                   <a href="/resources" className="link">Resources</a>
@@ -54,7 +54,7 @@ export default class Footer extends React.Component {
                   <a
                     href="https://www.linkedin.com/company/onepagesoftware/"
                     target="_blank"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     className="link"
                   >
                     LinkedIn

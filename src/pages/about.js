@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import onepageLogo from '../../content/assets/onepage-logo.png'
 import ryanPicture from '../../content/assets/ryan-picture.jpeg'
 import milesPicture from '../../content/assets/miles-portrait-1-small.jpg'
-import brianPicture from '../../content/assets/brian-picture.jpeg'
+import brianPicture from '../../content/assets/brian-picture-new-2.jpg'
 import './about.css'
 
 const AboutPage = ({ data, location }) => {
