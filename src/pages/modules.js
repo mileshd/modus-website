@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import demandScreenshot from '../../content/assets/demand-planning-screenshot.png'
+import demandScreenshot from '../../content/assets/demand-planning-screenshot-2.png'
 import tradeScreenshot from '../../content/assets/trade-performance-screenshot.png'
 import orderManagementScreenshot from '../../content/assets/customer-order-mgmt-screenshot.png'
 import './modules.css'
@@ -22,7 +22,7 @@ const ModulesPage = ({ data, location }) => {
               Whether your brand is just starting out or well-established nationally, 
             </h2>
             <h2>
-              Modus Planning's three unique tiers cater to your needs.
+              Modus Planning's three unique modules cater to your needs.
             </h2>
           </div>
         </div>
@@ -35,7 +35,7 @@ const ModulesPage = ({ data, location }) => {
                   Employ seamless, granular, bottom-up planning.
                 </h2>
                 <p>
-                  The prerequisite tier comprising everything your brand needs to forge a solid foundation for volume and promotional planning. Data can be viewed at a variety of levels throughout the supply chain, including inbound and outbound distribution centers, retailers and distributors. Modus provides data transformation and visualizations that simply would not be possible in a spreadsheet.
+                  The prerequisite tier comprising everything your brand needs to forge a solid foundation for volume and promotional planning. Data can be viewed at a variety of levels throughout the supply chain, including inbound and outbound distribution centers, retailers and distributors. Modus provides data transformations and visualizations that simply would not be possible in a spreadsheet.
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">
@@ -92,7 +92,10 @@ const ModulesPage = ({ data, location }) => {
                 We have lived it. We get it.
               </h3>
               <h3>
-                Our industry experts provide the support and training you need to operate your brand with Modus Planning. Our goal is your success.
+                Our industry experts provide the support and training you need to operate your brand with Modus Planning. 
+              </h3>
+              <h3>
+                Our goal is your success.
               </h3>
             </div>
             <a href="/schedule-a-demo" className="btn btn-primary get-in-touch-button">

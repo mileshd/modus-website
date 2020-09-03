@@ -223,7 +223,7 @@ const MaturityModelPage = ({ data, location }) => {
           <h3>Systems:</h3>
           <ul>
             <li>
-              Centralized, integrated, structured, and collaborative platform purpose built for bottoms-up planning employed. (Modus Planning) 
+              Centralized, integrated, structured, and collaborative platform purpose built for bottom-up planning employed. (Modus Planning) 
             </li>
           </ul>
 

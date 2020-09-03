@@ -82,7 +82,7 @@ const AboutPage = ({ data, location }) => {
                   Miles graduated from the University of Maryland with degrees in Information Systems and Supply Chain Management, and opted to pursue application development at General Electric. There, Miles completed GE's Information Technology Leadership program and gained experience in cybersecurity, full-stack development, and agile project management. Miles joined OnePage Software full-time in 2016 to build Modus Planning.
                 </p>
                 <p>
-                  Web application development is Miles' passion. He has been programming since 2007 and is constantly learning and refining his craft. After four years of work, Miles is excited to see the results achieved and value driven from Modus Planning.
+                  Web application development is Miles' passion. He has been programming since 2007 and is constantly learning and refining his craft. Miles is excited to see the results achieved and the value driven from Modus Planning after building the platform from the ground up.
                 </p>
                 <p>
                   Miles heads Product Development and Operations at OnePage Software.

@@ -104,7 +104,7 @@ const Index = ({ data, location }) => {
           <div className="solution-text">
             <h1>Solution</h1>
             <h2>
-              Modus Planning offers growing brands what they need most: A scalable platform with capabilities far transcending the spreadsheet.
+              Modus Planning offers growing brands what they need most: a scalable platform with capabilities far transcending the spreadsheet.
             </h2>
             <h2>
               Never miss a new item launch, promotion, or opportunity with the cross-functional collaboration facilitated by Modus Planning.
@@ -155,7 +155,7 @@ const Index = ({ data, location }) => {
                     Plan your sales and trade plans with high granularity. 
                   </li>
                   <li>
-                    Keep your promotion calendar up-to-date across all sales people with permissions and approvals.
+                    Keep your promotion calendar up to date across all sales people with permissions and approvals.
                   </li>
                   <li>
                     Understand trade spend and gross sales implications with each promotion.
