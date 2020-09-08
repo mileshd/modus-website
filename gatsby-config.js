@@ -4,8 +4,8 @@ module.exports = {
     author: {
       name: `Miles Dickinson`,
     },
-    description: `Website for Modus Planning`,
-    siteUrl: `http://modusplanning.com`
+    description: `Website for OnePage Software`,
+    siteUrl: `http://onepagesoftware.com`
   },
   plugins: [
     {
@@ -43,15 +43,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `Google Tracking ID`,
+        trackingId: `UA-84336589-2`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Modus Planning`,
-        short_name: `Modus`,
+        name: `OnePage Software`,
+        short_name: `OnePage`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
