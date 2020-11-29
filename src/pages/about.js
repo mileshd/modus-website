@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 import onepageLogo from '../../content/assets/onepage-logo.png'
 import ryanPicture from '../../content/assets/ryan-picture.jpeg'
 import milesPicture from '../../content/assets/miles-portrait-1-small.jpg'
-import brianPicture from '../../content/assets/brian-picture-new-2.jpg'
 import './about.css'
 
 const AboutPage = ({ data, location }) => {
@@ -86,28 +85,6 @@ const AboutPage = ({ data, location }) => {
                 </p>
                 <p>
                   Miles heads Product Development and Operations at OnePage Software.
-                </p>
-              </div>
-            </div>
-            <div className="row team-member">
-              <div className="col-xs-12 col-sm-3 img-container">
-                <img src={brianPicture} alt="Brian Doyle" className="team-picture" />
-                <h3>
-                  Brian Doyle
-                </h3>
-                <h4>
-                  CFO
-                </h4>
-              </div>
-              <div className="col-xs-12 col-sm-9">
-                <p>
-                  Graduating with degrees in Finance and Marketing from the University of Maryland, Brian has diverse financial experience and is a CFA charterholder. Brian began his career in Fannie Mae’s Finance Rotation Program before moving to Goldman Sachs where he was charged with complex investment valuation within GSAM.
-                </p>
-                <p>
-                  Brian has worked with OnePage Software since spring 2017 as the Director of Outreach before becoming the CFO in the summer of 2020.
-                </p>
-                <p>
-                  Brian oversees Sales, Marketing, and Finance for OnePage Software.
                 </p>
               </div>
             </div>
