@@ -23,21 +23,29 @@ export default function HTML(props) {
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
           crossOrigin="anonymous"
         />
+            
         <!-- Google Tag Manager ADDED BY HUDSON CREATIVE -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        <script dangerouslySetInnerHTML={{
+        __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var
+        f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-KQKG7HB');</script>
-        <!-- End Google Tag Manager -->    
+        })(window,document,'script','dataLayer','GTM-KQKG7HB');</script>`,
+        }}
+        />
+        <!-- End Google Tag Manager -->     
         
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
         <!-- Google Tag Manager (noscript) ADDED BY HUDSON CREATIVE -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQKG7HB"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <noscript dangerouslySetInnerHTML={{
+        __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-YOURID" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe>
+        `,
+        }}
+        />
         <!-- End Google Tag Manager (noscript) -->
+          
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
           This app works best with JavaScript enabled.
