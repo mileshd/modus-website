@@ -39,7 +39,7 @@ export default function HTML(props) {
       <body {...props.bodyAttributes}>
         <!-- Google Tag Manager (noscript) ADDED BY HUDSON CREATIVE -->
         <noscript dangerouslySetInnerHTML={{
-        __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-YOURID" height="0" width="0"
+        __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQKG7HB" height="0" width="0"
         style="display:none;visibility:hidden"></iframe>
         `,
         }}
